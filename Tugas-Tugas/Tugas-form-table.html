@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <style>
+      #data {
+        width: 100%;
+        background-color: azure;
+        border-color:aliceblue;
+      }
+      #data:hover{
+        color:white;
+        font-weight: bold;
+        background-color: black;
+        
+      }
+      table input {
+        padding: 1em;
+        border-radius: 5px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <table>
+        <tr>
+          <th>Username</th>
+          <td>:</td>
+          <td>
+            <input
+              type="text"
+              name="Nama"
+              id="Nama"
+              placeholder="Ketikkan nama"
+              required
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>Alamat</th>
+          <td>:</td>
+          <td>
+            <input
+              type="text"
+              name="alamat"
+              id="alamat"
+              placeholder="Tempat Tinggal"
+            />
+          </td>
+        </tr>
+        <tr>
+          <th>jenis kelamin</th>
+          <td>:</td>
+          <td>
+            <label for="laki"
+              ><input
+                type="radio"
+                name="jenis-kelamin"
+                id="laki"
+                value="laki"
+              />Laki-Laki</label
+            ><br />
+            <label for="perempuan"
+              ><input
+                type="radio"
+                name="jenis-kelamin"
+                id="perempuan"
+                value="perempuan"
+              />perempuan</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <th>Hoby</th>
+          <td>:</td>
+          <td>
+            <label for="memasak"
+              ><input type="checkbox" name="hoby" id="memasak" />memasak</label
+            ><br />
+            <label for="bersepeda"
+              ><input
+                type="checkbox"
+                name="hoby"
+                id="bersepeda"
+              />bersepeda</label
+            ><br />
+            <label for="lari"
+              ><input type="checkbox" name="hoby" id="lari" />lari</label
+            ><br />
+            <label for="panahan"
+              ><input type="checkbox" name="hoby" id="panahan" />panahan</label
+            ><br />
+            <label for="renang"
+              ><input type="checkbox" name="hoby" id="renang" />renang</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td colspan="3"><input type="submit" name="kirim" id="data" /></td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
