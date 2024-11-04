@@ -1,0 +1,52 @@
+body{
+    font-family: sans-serif;
+}
+p{
+    text-indent: 1em;
+
+}
+h2{
+    color: darkcyan;
+    
+}
+hr{
+    border: 1px solid darkcyan;
+}
+.bigred {
+  font-size: xx-large;
+  color: red;
+}
+.small {
+  font-size: xx-small;
+  color: gray;
+}
+.underline {
+  text-decoration: underline;
+}
+.upperline {
+  text-decoration: overline;
+}
+.strike {
+  text-decoration: line-through;
+}
+.rataka {
+  text-align: right;
+}
+.ratate {
+  text-align: center;
+}
+.uppercase {
+  text-transform: uppercase;
+}
+.lowercase{
+    text-transform: lowercase;
+}
+.capitalize{
+    text-transform: capitalize;
+}
+.letters{
+    letter-spacing: 10px;
+}
+.word-space{
+    word-spacing: 1em;
+}
