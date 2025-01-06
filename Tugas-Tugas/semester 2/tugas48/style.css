@@ -1,0 +1,94 @@
+html{
+    scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+  padding: 4px;
+  z-index: 1;
+}
+.header p {
+  color: white;
+}
+#body {
+  display: flex;
+  margin: 4em 0em;
+  width: 100%;
+}
+#kiri {
+  width: 10%;
+  background-color: lightgray;
+  margin-right: 1em;
+  padding-bottom: 100em;
+}
+#kanan {
+  width: 85%;
+  margin-top: 1.5em;
+}
+.sticky {
+  background-color: yellow;
+  position: sticky;
+  top: 4.5em;
+  padding: 13px;
+  border: solid 1px rgb(170, 231, 30);
+  width: 100%;
+  z-index: -1;
+}
+.parent {
+  width: max-content;
+  padding: 0em 10em 10em 10em;
+  margin-top: 1em;
+  background-color: darkgray;
+  border: solid 1px black;
+}
+.child {
+  text-align: center;
+  width: 100px;
+  border-radius: 5px;
+  position: relative;
+  top: 9em;
+  left: 9em;
+  padding: 10px;
+  background-color: green;
+  color: white;
+}
+.konten {
+  position: relative;
+  z-index: -2;
+  margin-top: 1em;
+  padding: 5px;
+  border: solid 1px rgb(190, 190, 190);
+  background-color: #f0f0f0;
+}
+.panduan {
+  position: relative;
+  z-index: -2;
+}
+.button {
+  position: fixed;
+  top: 42em;
+  right: 1em;
+  background-color: indianred;
+  border-radius: 15px;
+  padding: 10px;
+}
+.button a {
+  text-decoration: none;
+  color: white;
+}
+.footer {
+  width: 100%;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  text-align: center;
+padding: 2px 0px 4px 0px ;
+  z-index: -1;
+}
