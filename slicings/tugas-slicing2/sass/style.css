@@ -1,0 +1,413 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Quicksand:wght@300..700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "cabin", sans-serif;
+}
+body .adzsys {
+  color: red;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  padding-bottom: 12em;
+  background: linear-gradient(156.88deg, #2c9bf3 14.96%, #ffffff 98.41%);
+}
+
+.container-atas {
+  display: flex;
+  justify-content: space-around;
+  padding: 1em;
+}
+.container-atas h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.container-atas div.img,
+.container-atas img {
+  width: 160px;
+  height: 52px;
+  gap: 0px;
+  opacity: 0px;
+}
+.container-atas div.link {
+  align-self: center;
+  padding: 1em;
+  background-color: aqua;
+  border-radius: 50px;
+  width: -moz-max-content;
+  width: max-content;
+  background: linear-gradient(166.37deg, #2c9bf3 9.76%, #ffffff 160.91%);
+}
+.container-atas div.link a {
+  list-style: none;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 27px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  color: white;
+}
+.container-atas nav {
+  margin: 0 2em;
+}
+.container-atas nav ul {
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+  font-family: "cabin", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.container-atas nav ul li {
+  margin: 1.5em;
+}
+
+.container-bawah {
+  display: flex;
+  align-self: center;
+  padding: 1em;
+  margin: 2em;
+}
+.container-bawah .cb-kanan h1 {
+  color: white;
+}
+.container-bawah .cb-kanan p {
+  color: white;
+  font-family: "cabin", sans-serif;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.container-bawah .cb-kanan .button {
+  align-self: center;
+  padding: 1em;
+  background: linear-gradient(93.97deg, #ff4a4a 20.74%, #ff6b6b 88.79%);
+  gap: 0px;
+  border-radius: 24px;
+  opacity: 0px;
+  width: -moz-max-content;
+  width: max-content;
+  margin-top: 2em;
+}
+.container-bawah .cb-kanan .button a {
+  color: white;
+  list-style: none;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 27px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.container-bawah .cb-kiri {
+  width: 533.23px;
+  height: 381.17px;
+  top: 251.66px;
+  left: 767px;
+  gap: 0px;
+  opacity: 0px;
+}
+.container-bawah .cb-kiri img {
+  width: 100%;
+}
+
+.utama {
+  background: #f2f4f7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.utama .utama-block {
+  position: relative;
+  top: -5em;
+}
+.utama .utama-block .block {
+  border-radius: 25px;
+  background-color: #ffffff;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  width: -moz-max-content;
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3em;
+  gap: 1em;
+}
+.utama .utama-block .block h1 {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.utama .utama-block .block img {
+  width: 918px;
+  height: 301px;
+  gap: 22px;
+  opacity: 0px;
+}
+.utama span.button {
+  margin-top: 219px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: inset;
+  padding: 10px 25px;
+  box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
+  justify-self: center;
+}
+.utama span.button a {
+  text-decoration: none;
+  color: linear-gradient(166.37deg, #2c9bf3 9.76%, #ffffff 160.91%);
+  width: 100%;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.utama .utama-konten {
+  padding: 5em;
+  -moz-column-gap: 20em;
+       column-gap: 20em;
+  display: flex;
+}
+.utama .utama-konten div.kanan h1 {
+  font-family: Cabin;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 42px;
+  text-align: left;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.utama .utama-konten div.kiri {
+  width: 397px;
+  height: 566px;
+  top: 1803px;
+  left: 899px;
+  gap: 0px;
+  border-radius: 29px 0px 0px 0px;
+  opacity: 0px;
+}
+.utama .utama-konten div.kiri img {
+  width: 100%;
+}
+
+.masalah {
+  background: linear-gradient(180deg, #f2f4f7 0%, #4eabf5 28.49%, #2c9bf3 52.01%, #51acf5 60.36%, #f2f4f7 100%);
+  padding: 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1em;
+}
+.masalah h2,
+.masalah p {
+  color: #ffffff;
+}
+.masalah h2 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 50px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+  margin: 1em;
+}
+.masalah p {
+  margin: 1em;
+  margin-bottom: 4em;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 27px;
+  text-align: center;
+  text-underline-position: from-font;
+  -webkit-text-decoration-skip-ink: none;
+          text-decoration-skip-ink: none;
+}
+.masalah .masalah-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+.masalah .masalah-container .masalah-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 377px;
+  height: 287px;
+  gap: 0px;
+  border-radius: 34px 0px 0px 0px;
+  opacity: 0px;
+  background-image: url(./../asset/Rectangle\ 95.png);
+  background-position: center;
+  background-size: cover;
+}
+.masalah .masalah-container .masalah-1 img {
+  width: 106px;
+  height: 105px;
+  top: 38px;
+  left: 135px;
+  gap: 0px;
+  opacity: 0px;
+}
+.masalah .masalah-container .masalah-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 377px;
+  height: 287px;
+  gap: 0px;
+  border-radius: 34px 0px 0px 0px;
+  opacity: 0px;
+  background-image: url("./../asset/Rectangle 95 (1).png");
+  background-position: center;
+  background-size: cover;
+}
+.masalah .masalah-container .masalah-2 img {
+  width: 106px;
+  height: 105px;
+  top: 38px;
+  left: 135px;
+  gap: 0px;
+  opacity: 0px;
+}
+.masalah .masalah-container .masalah-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 377px;
+  height: 287px;
+  gap: 0px;
+  border-radius: 34px 0px 0px 0px;
+  opacity: 0px;
+  background-image: url("./../asset/Rectangle 95 (2).png");
+  background-position: center;
+  background-size: cover;
+}
+.masalah .masalah-container .masalah-3 img {
+  width: 106px;
+  height: 105px;
+  top: 38px;
+  left: 135px;
+  gap: 0px;
+  opacity: 0px;
+}
+.masalah .masalah-container .masalah-4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 377px;
+  height: 287px;
+  gap: 0px;
+  border-radius: 34px 0px 0px 0px;
+  opacity: 0px;
+  background-image: url("./../asset/Rectangle 95 (3).png");
+  background-position: center;
+  background-size: cover;
+}
+.masalah .masalah-container .masalah-4 img {
+  width: 106px;
+  height: 105px;
+  top: 38px;
+  left: 135px;
+  gap: 0px;
+  opacity: 0px;
+}
+.masalah .masalah-container .masalah-5 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 377px;
+  height: 287px;
+  gap: 0px;
+  border-radius: 34px 0px 0px 0px;
+  opacity: 0px;
+  background-image: url("./../asset/Rectangle 95 (4).png");
+  background-position: center;
+  background-size: cover;
+}
+.masalah .masalah-container .masalah-5 img {
+  width: 106px;
+  height: 105px;
+  top: 38px;
+  left: 135px;
+  gap: 0px;
+  opacity: 0px;
+}
+.masalah .masalah-container .masalah-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 377px;
+  height: 287px;
+  gap: 0px;
+  border-radius: 34px 0px 0px 0px;
+  opacity: 0px;
+  background-image: url("./../asset/Rectangle 95 (5).png");
+  background-position: center;
+  background-size: cover;
+}
+.masalah .masalah-container .masalah-6 img {
+  width: 106px;
+  height: 105px;
+  top: 38px;
+  left: 135px;
+  gap: 0px;
+  opacity: 0px;
+}
+.masalah span.button {
+  border-radius: 25px;
+  background-color: #ff4a4a;
+  padding: 1em 2em;
+  display: flex;
+  gap: 10px;
+}
+.masalah span.button a {
+  text-decoration: none;
+  color: white;
+}
+.masalah span.button img {
+  width: 21.9px;
+  height: 22px;
+  gap: 0px;
+  opacity: 0px;
+}/*# sourceMappingURL=style.css.map */

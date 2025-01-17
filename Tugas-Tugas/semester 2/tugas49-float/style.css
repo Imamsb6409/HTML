@@ -1,0 +1,27 @@
+.box{
+    padding: 10px;
+    background-color: brown;
+}
+.icon-1 {
+  float: right;
+  width: 150px;
+  overflow: auto;
+ 
+}
+.icon-2 {
+  float: left;
+  width: 150px;
+  overflow:auto;
+}
+.clear{
+    background-color: red;
+    padding: 10px;
+}
+.box-icon-1{
+    background-color: aqua;
+    padding: 10px;
+}
+.box-icon-2{
+    background-color: blueviolet;
+    padding: 10px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+  </head>
+  <body>
+    <form action="">
+      <p>
+        <label for="Nama">Username:</label>
+        <input type="text" name="Nama" placeholder="Ketikkan Nama" required />
+      </p>
+      <p>
+        <label for="alamat">Alamat:</label>
+        <input type="text" name="Alamat" placeholder="Tempat Tinggal" />
+      </p>
+
+      <p>
+        <label for="jenis-kelamin"
+          >Jenis Kelamin:
+          <select name="jenis-kelamin" id="jenis-kelamin">
+            <option value="laki-laki">Laki-Laki</option>
+            <option value="perempuan">perempuan</option>
+            <option value="rahasia">tidak memberitahu</option>
+          </select>
+        </label>
+      </p>
+      <p>
+        <label for="hoby">Hoby:</label><br />
+        <label for="memasak"
+          ><input type="checkbox" name="hoby" id="memasak" />memasak</label
+        ><br />
+        <label for="bersepeda"
+          ><input type="checkbox" name="hoby" id="bersepeda" />bersepeda</label
+        ><br />
+        <label for="lari"><input type="checkbox" name="hoby" id="lari" />lari</label
+        ><br />
+        <label for="panahan"
+          ><input type="checkbox" name="hoby" id="panahan" />panahan</label
+        ><br />
+        <label for="renang"
+          ><input type="checkbox" name="hoby" id="renang" />renang</label
+        >
+      </p>
+      <input type="submit" name="kirim" id="data" />
+    </form>
+  </body>
+</html>

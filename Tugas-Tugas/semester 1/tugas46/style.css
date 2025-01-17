@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Iceland&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Iceland&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  p{
+    margin: 0;
+  }
+}
+main {
+  background-image: url(./assets/Background\ Doodle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+#header {
+  /* width: 100%; */
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff8f0c;
+  color: white;
+  font-family: "Iceland", cursive;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 27.16px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+#nav-header {
+  color: white;
+  ul {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21.78px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+    display: flex;
+    list-style: none;
+    li {
+      margin: 1em;
+      a {
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
+}
+.hero {
+  font-family: "Alfa Slab One", cursive;
+  .hero-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 5em;
+    .box-kanan {
+      width: max-content;
+      .rule {
+        font-size: 51px;
+        font-weight: 400;
+        /* line-height: 69.82px; */
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+        span.well {
+          color: #ff8f0c;
+        }
+        span.collect {
+          font-size: 23px;
+          font-weight: 400;
+          /* line-height: 31.49px; */
+          text-align: left;
+          text-underline-position: from-font;
+          text-decoration-skip-ink: none;
+        }
+      }
+      a {
+        text-decoration: none;
+        color: white;
+        background-color: #ff8f0c;
+        padding: 1em;
+        border-radius: 5px;
+        font-family: "Inter";
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 19.36px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+      }
+    }
+    .box-kiri {
+      width: 327px;
+      height: 327px;
+      left: 927px;
+      gap: 0px;
+      opacity: 0px;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+  .hero-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+    padding-top: 10em;
+    padding-bottom: 4em;
+    p {
+      span {
+        color: #ff8f0c;
+      }
+    }
+    .logo {
+      display: flex;
+      gap: 3em;
+
+      justify-items: center;
+      img {
+        width: 60px;
+        height: 60px;
+        top: 29px;
+        left: 298px;
+      }
+    }
+  }
+}

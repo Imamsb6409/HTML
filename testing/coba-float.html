@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+      }
+      ul.navigasi {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-color: #333;
+      }
+      ul.navigasi li {
+        float: left;
+      }
+      ul.navigasi li a {
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+      ul.navigasi li a:hover {
+        background-color: #111;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="gambar.jpg" alt="Gambar" style="float: right; width: 150px" />
+    <p>Ini adalah teks yang akan mengisi ruang di sebelah kiri gambar.</p>
+    <img src="gambar.jpg" alt="Gambar" style="float: left; width: 150px" />
+    <p>Ini adalah teks yang akan mengisi ruang di sebelah kanan gambar.</p>
+    <div style="clear: both">
+      Ini adalah elemen yang muncul setelah float dimatikan.
+    </div>
+    <br /><br /><br /><br />
+    <div>
+      <div class="clearfix">
+        <div style="float: left">Elemen 1</div>
+        <div style="float: right">Elemen 2</div>
+      </div>
+    </div>
+    <div>
+      <ul class="navigasi">
+        <li><a href="#">Home</a></li>
+
+        <li><a href="#">About</a></li>
+
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+  </body>
+</html>
