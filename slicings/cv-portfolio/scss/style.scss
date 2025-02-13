@@ -295,6 +295,7 @@ header {
 
     .portfolio-container {
       .port {
+       
         background: hsla(196, 73%, 57%, 1);
 
         background: radial-gradient(
@@ -322,7 +323,7 @@ header {
         gap: 2em;
         margin-top: 4em;
         box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
-        padding: 4em;
+        padding: 2em 6em 2em 6em;
         img {
           width: 70%;
           object-fit: contain;
@@ -359,11 +360,12 @@ header {
       }
 
       .portfolio-text-kanan {
+       
         h2 {
           font-size: 40px;
           font-weight: 700;
           line-height: 50px;
-          text-align: right;
+          text-align: center;
           text-underline-position: from-font;
           -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
@@ -372,7 +374,7 @@ header {
           font-size: 24px;
           font-weight: 600;
           line-height: 27px;
-          text-align: right;
+          text-align: center;
           text-underline-position: from-font;
           -webkit-text-decoration-skip-ink: none;
           text-decoration-skip-ink: none;
